@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I didn't get that. Please type "start" to begin your career assessment!</template>
+  </category>
+  
+  <category>
+      <pattern>bye</pattern>
+      <template>Thanks for using the WGU CSCI chatbot! Come back any time for more career advice!</template>
+  </category>
+
+  
+  
+</aiml>

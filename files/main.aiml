@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>start</pattern>
+      <template><delay>1</delay>Hello there! I'm the WGU CSCI chatbot. I'm here to help you decide on the right career path after graduation! 
+      First things first, are you a Computer Science major? 
+      <button>
+          <text>Yes</text>
+          <postback>CSCIMAJOR</postback>
+      </button>
+      <button>
+          <text>No</text>
+          <postback>NOTCSCIMAJOR</postback>
+      </button>
+      </template>
+  </category>
+  
+  
+  <category>
+      <pattern>NOTCSCIMAJOR</pattern>
+      <template><delay>1</delay>I'm sorry, I am currently only configured for assitance with computer science career paths. If you end up changing your major you can come back and chat with me any time by typing "start" !</template>
+  </category>
+  
+  <category>
+      <pattern>CSCIMAJOR</pattern>
+      <template>Great! On to our first question then.... In your degree so far, which have you enjoyed learning about more?
+        <button>
+            <text>Hardware</text>
+            <postback>HARDWAREENGINEER</postback>
+        </button>
+        <button>
+            <text>Software</text>
+            <postback>Q1SOFTWARE</postback>
+        </button>
+        </template>
+  </category>
+  
+  <category>
+      <pattern>Q1SOFTWARE</pattern>
+      <template>Awesome! The software side of computer science has many different career paths to choose from. 
+      Which of the following best describes how you feel about coding/programming?
+      <button>
+          <text>Coding is a tool to solve other/existing problems.</text>
+          <postback>Q2TOOL</postback>
+      </button>
+      <button>
+          <text>Coding is a way to build completely new and useful applications.</text>
+          <postback>Q2BUILD</postback>
+      </button></template>
+  </category>
+  
+  <category>
+      <pattern>Q2TOOL</pattern>
+      <template>Interesting! There are a few different career paths that employ coding as a tool to deal with their day-to-day tasks, rather than to build new applications from scratch. 
+                Which of the following is a stronger skill for you?
+                <button>
+                    <text>Mathematics/Data Analysis</text>
+                    <postback>DATASCIENTIST</postback>
+                </button>
+                <button>
+                    <text>Networking/Security</text>
+                    <postback>INFOSECANALYST</postback>
+                </button>
+        </template>
+  </category>
+  
+  <category>
+      <pattern>Q2BUILD</pattern>
+      <template>Very cool! The ability to build something completely new from scratch is one of the most rewarding skills to have in a CSCI program!
+      Which of the following would you say describes you better?
+      <button>
+          <text>I am a visual and creative person.</text>
+          <postback>WEBDEV</postback>
+      </button>
+      <button>
+          <text>I am analytical and detail-oriented.</text>
+          <postback>SOFTWAREDEV</postback>
+      </button></template>
+  </category>
+  
+  
+</aiml>

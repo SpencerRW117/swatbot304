@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>HARDWAREENGINEER</pattern>
+	    <template>Nice! Students interested in the hardware side of computer science often go on to make great HARDWARE ENGINEERS.
+	    Hardware engineers research, design, devlop, and test computer systems and components! Check out this link for more details!
+	    (If you'd like to explore other career options, simply type "start" again. Or type "bye" to quit.)
+	   <button>
+	       <text>Bureau of Labor and Statistics information on Hardware Engineering</text>
+	       <url>https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm</url>
+	   </button>
+	  </template>
+	</category>
+	
+	<category>
+	    <pattern>DATASCIENTIST</pattern>
+	    <template>Your strong math skills might make you a good DATA SCIENTIST! Data scientists transform raw data into meaningful information using a wide range of data-oriented tools!
+	    Check out this link for more details! (If you'd like to explore other career options, simply type "start" again. Or type "bye" to quit.)
+	    <button>
+	        <text>Additional information about Data Science careers.</text>
+	        <url>https://www.onetonline.org/link/summary/15-2051.00</url>
+	    </button>
+	   </template>
+	</category>
+	
+	<category>
+	    <pattern>INFOSECANALYST</pattern>
+	    <template>Your skills in computer networking and security might make INFORMATION SECURITY ANALYST a good career choice!
+	    Information security analysts plan and carry out security measures to protect and organization's computer networks and systems. 
+	    Check out this link for more details! (If you'd like to explore other career options, simply type "start" again. Or type "bye" to quit.)
+	    <button>
+	        <text>Bureau of Labor and Statistics information on Information Security Analysts.</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>WEBDEV</pattern>
+	    <template>Your visual and creative nature might make you a good WEB DEVELOPER! Web devlopers create and maintain websites!
+	     Check out this link for more details! (If you'd like to explore other career options, simply type "start" again. Or type "bye" to quit.)
+	     <button>
+	         <text>Bureau of Labor and Statistics information on Web Devlopers.</text>
+	         <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+	     </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>SOFTWAREDEV</pattern>
+	    <template>Your ability to build new applications and your analytical mindset might make you a great SOFTWARE DEVELOPER!
+	    Software developers design computer applications or programs. Check out this link for more details! 
+	    (If you'd like to explore other career options, simply type "start" again. Or type "bye" to quit.)
+	    <button>
+	        <text>Bureau of Labor and Statistics information on Software Developers.</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+	    </button>
+	    </template>
+	</category>
+	
+</aiml>
